@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77E827DD1BC66061005C1B2E /* test6-7.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E827C31BC66037005C1B2E /* test6-7.m */; settings = {ASSET_TAGS = (); }; };
+		77E827F81BC906F6005C1B2E /* FractionLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E827F71BC906F6005C1B2E /* FractionLight.m */; settings = {ASSET_TAGS = (); }; };
+		77E827F91BC90B27005C1B2E /* codeList7-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E827E61BC7A9EE005C1B2E /* codeList7-2.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,19 @@
 		77E827C11BC66037005C1B2E /* test6-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test6-5.m"; sourceTree = "<group>"; };
 		77E827C21BC66037005C1B2E /* test6-6A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test6-6A.m"; sourceTree = "<group>"; };
 		77E827C31BC66037005C1B2E /* test6-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test6-7.m"; sourceTree = "<group>"; };
+		77E827DF1BC66CA3005C1B2E /* codeList7-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList7-1.m"; path = "chapter7/codeList7-1.m"; sourceTree = "<group>"; };
+		77E827E21BC66DE2005C1B2E /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = chapter7/Fraction.h; sourceTree = "<group>"; };
+		77E827E31BC66DE2005C1B2E /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = chapter7/Fraction.m; sourceTree = "<group>"; };
+		77E827E61BC7A9EE005C1B2E /* codeList7-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList7-2.m"; path = "chapter7/codeList7-2.m"; sourceTree = "<group>"; };
+		77E827E81BC7AB7C005C1B2E /* codeList7-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList7-3.m"; path = "chapter7/codeList7-3.m"; sourceTree = "<group>"; };
+		77E827EA1BC7B579005C1B2E /* codeLIst7-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeLIst7-4.m"; path = "chapter7/codeLIst7-4.m"; sourceTree = "<group>"; };
+		77E827EC1BC7F2DA005C1B2E /* codeLIst7-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeLIst7-5.m"; path = "chapter7/codeLIst7-5.m"; sourceTree = "<group>"; };
+		77E827EE1BC8EC8D005C1B2E /* codeList7-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList7-6.m"; path = "chapter7/codeList7-6.m"; sourceTree = "<group>"; };
+		77E827F01BC8F885005C1B2E /* test7-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-1.m"; path = "chapter7/test7-1.m"; sourceTree = "<group>"; };
+		77E827F21BC90074005C1B2E /* test7-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-2.m"; path = "chapter7/test7-2.m"; sourceTree = "<group>"; };
+		77E827F41BC905C6005C1B2E /* test7-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-4.m"; path = "chapter7/test7-4.m"; sourceTree = "<group>"; };
+		77E827F61BC906F6005C1B2E /* FractionLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionLight.h; sourceTree = "<group>"; };
+		77E827F71BC906F6005C1B2E /* FractionLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionLight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 		77E827921BC65F3C005C1B2E = {
 			isa = PBXGroup;
 			children = (
+				77E827E11BC66CAA005C1B2E /* chapter7 */,
 				77E827A81BC66037005C1B2E /* chapter4 */,
 				77E827AC1BC66037005C1B2E /* chapter5 */,
 				77E827B31BC66037005C1B2E /* chapter6 */,
@@ -136,6 +151,26 @@
 			path = chapter6;
 			sourceTree = "<group>";
 		};
+		77E827E11BC66CAA005C1B2E /* chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+				77E827DF1BC66CA3005C1B2E /* codeList7-1.m */,
+				77E827E61BC7A9EE005C1B2E /* codeList7-2.m */,
+				77E827E81BC7AB7C005C1B2E /* codeList7-3.m */,
+				77E827E21BC66DE2005C1B2E /* Fraction.h */,
+				77E827E31BC66DE2005C1B2E /* Fraction.m */,
+				77E827F61BC906F6005C1B2E /* FractionLight.h */,
+				77E827F71BC906F6005C1B2E /* FractionLight.m */,
+				77E827F01BC8F885005C1B2E /* test7-1.m */,
+				77E827F21BC90074005C1B2E /* test7-2.m */,
+				77E827F41BC905C6005C1B2E /* test7-4.m */,
+				77E827EC1BC7F2DA005C1B2E /* codeLIst7-5.m */,
+				77E827EE1BC8EC8D005C1B2E /* codeList7-6.m */,
+				77E827EA1BC7B579005C1B2E /* codeLIst7-4.m */,
+			);
+			name = chapter7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,7 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E827DD1BC66061005C1B2E /* test6-7.m in Sources */,
+				77E827F81BC906F6005C1B2E /* FractionLight.m in Sources */,
+				77E827F91BC90B27005C1B2E /* codeList7-2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
