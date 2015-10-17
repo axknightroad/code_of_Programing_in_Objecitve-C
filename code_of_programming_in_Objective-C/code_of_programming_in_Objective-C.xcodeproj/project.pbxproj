@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77E827F81BC906F6005C1B2E /* FractionLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E827F71BC906F6005C1B2E /* FractionLight.m */; settings = {ASSET_TAGS = (); }; };
-		77E827F91BC90B27005C1B2E /* codeList7-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E827E61BC7A9EE005C1B2E /* codeList7-2.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A741BD23124006403E5 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A731BD23124006403E5 /* Complex.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +23,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		77901CB61BC95E6800E50CA2 /* test7-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-6.m"; path = "chapter7/test7-6.m"; sourceTree = "<group>"; };
+		77901CB81BC9664B00E50CA2 /* codeList8-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-1.m"; path = "chapter8/codeList8-1.m"; sourceTree = "<group>"; };
+		77901CBB1BCA8EC900E50CA2 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = chapter8/Rectangle.h; sourceTree = "<group>"; };
+		77901CBC1BCA8EC900E50CA2 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = chapter8/Rectangle.m; sourceTree = "<group>"; };
+		77901CBE1BCA959600E50CA2 /* codeList8-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-2.m"; path = "chapter8/codeList8-2.m"; sourceTree = "<group>"; };
+		779C3FCD1BCAA5390004BCC0 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = chapter8/Square.h; sourceTree = "<group>"; };
+		779C3FCE1BCAA5390004BCC0 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Square.m; path = chapter8/Square.m; sourceTree = "<group>"; };
+		779C3FD01BCAAB910004BCC0 /* codeList8-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-3.m"; path = "chapter8/codeList8-3.m"; sourceTree = "<group>"; };
+		779C3FD21BCAB5F80004BCC0 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPoint.h; path = chapter8/XYPoint.h; sourceTree = "<group>"; };
+		779C3FD31BCAB5F80004BCC0 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPoint.m; path = chapter8/XYPoint.m; sourceTree = "<group>"; };
+		77C74A531BCBB115006403E5 /* codeList8-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-4.m"; path = "chapter8/codeList8-4.m"; sourceTree = "<group>"; };
+		77C74A551BCBE4C9006403E5 /* codeList8-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-5.m"; path = "chapter8/codeList8-5.m"; sourceTree = "<group>"; };
+		77C74A581BCCF174006403E5 /* codeList8-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-6.m"; path = "chapter8/codeList8-6.m"; sourceTree = "<group>"; };
+		77C74A5A1BCCF61A006403E5 /* codeList8-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-7.m"; path = "chapter8/codeList8-7.m"; sourceTree = "<group>"; };
+		77C74A5C1BCE3E22006403E5 /* test8-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test8-1.m"; path = "chapter8/test8-1.m"; sourceTree = "<group>"; };
+		77C74A5E1BCE4B42006403E5 /* GraphicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
+		77C74A5F1BCE4B42006403E5 /* GraphicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
+		77C74A611BCF88EE006403E5 /* test8-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test8-5.m"; path = "chapter8/test8-5.m"; sourceTree = "<group>"; };
+		77C74A631BCF8AE5006403E5 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Circle.h; path = chapter8/Circle.h; sourceTree = "<group>"; };
+		77C74A641BCF8AE5006403E5 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = chapter8/Circle.m; sourceTree = "<group>"; };
+		77C74A661BCFF247006403E5 /* test8-0-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test8-0-1.m"; path = "chapter8/test8-0-1.m"; sourceTree = "<group>"; };
+		77C74A691BD01271006403E5 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = chapter8/Triangle.h; sourceTree = "<group>"; };
+		77C74A6A1BD01271006403E5 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Triangle.m; path = chapter8/Triangle.m; sourceTree = "<group>"; };
+		77C74A6C1BD026B0006403E5 /* test8-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test8-6.m"; path = "chapter8/test8-6.m"; sourceTree = "<group>"; };
+		77C74A6E1BD02968006403E5 /* test8-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test8-7.m"; path = "chapter8/test8-7.m"; sourceTree = "<group>"; };
+		77C74A701BD02F86006403E5 /* test8-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test8-8.m"; sourceTree = "<group>"; };
+		77C74A721BD23124006403E5 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Complex.h; path = chapter9/Complex.h; sourceTree = "<group>"; };
+		77C74A731BD23124006403E5 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Complex.m; path = chapter9/Complex.m; sourceTree = "<group>"; };
 		77E8279B1BC65F3C005C1B2E /* code_of_programming_in_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code_of_programming_in_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8279E1BC65F3C005C1B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E827A91BC66037005C1B2E /* codeList4-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "codeList4-6.m"; sourceTree = "<group>"; };
@@ -64,6 +91,8 @@
 		77E827F41BC905C6005C1B2E /* test7-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-4.m"; path = "chapter7/test7-4.m"; sourceTree = "<group>"; };
 		77E827F61BC906F6005C1B2E /* FractionLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionLight.h; sourceTree = "<group>"; };
 		77E827F71BC906F6005C1B2E /* FractionLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionLight.m; sourceTree = "<group>"; };
+		77E827FA1BC95903005C1B2E /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Complex.h; path = chapter7/Complex.h; sourceTree = "<group>"; };
+		77E827FB1BC95903005C1B2E /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Complex.m; path = chapter7/Complex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +106,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77901CBA1BC9665300E50CA2 /* chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+				779C3FD21BCAB5F80004BCC0 /* XYPoint.h */,
+				779C3FD31BCAB5F80004BCC0 /* XYPoint.m */,
+				779C3FCD1BCAA5390004BCC0 /* Square.h */,
+				779C3FCE1BCAA5390004BCC0 /* Square.m */,
+				77C74A631BCF8AE5006403E5 /* Circle.h */,
+				77C74A641BCF8AE5006403E5 /* Circle.m */,
+				77C74A691BD01271006403E5 /* Triangle.h */,
+				77C74A6A1BD01271006403E5 /* Triangle.m */,
+				77901CBB1BCA8EC900E50CA2 /* Rectangle.h */,
+				77901CBC1BCA8EC900E50CA2 /* Rectangle.m */,
+				77C74A5E1BCE4B42006403E5 /* GraphicObject.h */,
+				77C74A5F1BCE4B42006403E5 /* GraphicObject.m */,
+				77C74A551BCBE4C9006403E5 /* codeList8-5.m */,
+				77C74A531BCBB115006403E5 /* codeList8-4.m */,
+				77C74A581BCCF174006403E5 /* codeList8-6.m */,
+				77C74A5A1BCCF61A006403E5 /* codeList8-7.m */,
+				77C74A5C1BCE3E22006403E5 /* test8-1.m */,
+				77C74A661BCFF247006403E5 /* test8-0-1.m */,
+				77C74A611BCF88EE006403E5 /* test8-5.m */,
+				77C74A6C1BD026B0006403E5 /* test8-6.m */,
+				77C74A6E1BD02968006403E5 /* test8-7.m */,
+				77C74A701BD02F86006403E5 /* test8-8.m */,
+				77901CB81BC9664B00E50CA2 /* codeList8-1.m */,
+				77901CBE1BCA959600E50CA2 /* codeList8-2.m */,
+				779C3FD01BCAAB910004BCC0 /* codeList8-3.m */,
+			);
+			name = chapter8;
+			sourceTree = "<group>";
+		};
+		77C74A751BD23129006403E5 /* chapter9 */ = {
+			isa = PBXGroup;
+			children = (
+				77C74A721BD23124006403E5 /* Complex.h */,
+				77C74A731BD23124006403E5 /* Complex.m */,
+			);
+			name = chapter9;
+			sourceTree = "<group>";
+		};
 		77E827921BC65F3C005C1B2E = {
 			isa = PBXGroup;
 			children = (
+				77C74A751BD23129006403E5 /* chapter9 */,
+				77901CBA1BC9665300E50CA2 /* chapter8 */,
 				77E827E11BC66CAA005C1B2E /* chapter7 */,
 				77E827A81BC66037005C1B2E /* chapter4 */,
 				77E827AC1BC66037005C1B2E /* chapter5 */,
@@ -167,6 +239,9 @@
 				77E827EC1BC7F2DA005C1B2E /* codeLIst7-5.m */,
 				77E827EE1BC8EC8D005C1B2E /* codeList7-6.m */,
 				77E827EA1BC7B579005C1B2E /* codeLIst7-4.m */,
+				77E827FA1BC95903005C1B2E /* Complex.h */,
+				77E827FB1BC95903005C1B2E /* Complex.m */,
+				77901CB61BC95E6800E50CA2 /* test7-6.m */,
 			);
 			name = chapter7;
 			sourceTree = "<group>";
@@ -227,8 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E827F81BC906F6005C1B2E /* FractionLight.m in Sources */,
-				77E827F91BC90B27005C1B2E /* codeList7-2.m in Sources */,
+				77C74A741BD23124006403E5 /* Complex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +419,7 @@
 				77E827A41BC65F3C005C1B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
