@@ -10,4 +10,25 @@
 
 @implementation Complex
 
+@synthesize real, imaginary;
+
+-(void) print {
+    NSLog(@"%g + %gi", real, imaginary);
+}
+
+-(Complex *) add: (Complex *) f {
+    Complex *result = [[Complex alloc] init];
+    
+    result.real = real + f.real;
+    result.imaginary = imaginary + f.imaginary;
+    
+    return result;
+}
+
+-(void) setReal: (double) a andImaginary: (double) b {
+    
+    real = a;
+    imaginary = b;
+}
+
 @end

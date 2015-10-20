@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		77C74A741BD23124006403E5 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A731BD23124006403E5 /* Complex.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A7A1BD2A65C006403E5 /* Fraction.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A7D1BD3547B006403E5 /* codeList9-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A7C1BD3547B006403E5 /* codeList9-2.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +53,10 @@
 		77C74A701BD02F86006403E5 /* test8-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test8-8.m"; sourceTree = "<group>"; };
 		77C74A721BD23124006403E5 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Complex.h; path = chapter9/Complex.h; sourceTree = "<group>"; };
 		77C74A731BD23124006403E5 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Complex.m; path = chapter9/Complex.m; sourceTree = "<group>"; };
+		77C74A761BD2442E006403E5 /* codeList9-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList9-1.m"; path = "chapter9/codeList9-1.m"; sourceTree = "<group>"; };
+		77C74A791BD2A65C006403E5 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = chapter9/Fraction.h; sourceTree = "<group>"; };
+		77C74A7A1BD2A65C006403E5 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = chapter9/Fraction.m; sourceTree = "<group>"; };
+		77C74A7C1BD3547B006403E5 /* codeList9-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList9-2.m"; path = "chapter9/codeList9-2.m"; sourceTree = "<group>"; };
 		77E8279B1BC65F3C005C1B2E /* code_of_programming_in_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code_of_programming_in_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8279E1BC65F3C005C1B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E827A91BC66037005C1B2E /* codeList4-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "codeList4-6.m"; sourceTree = "<group>"; };
@@ -142,7 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				77C74A721BD23124006403E5 /* Complex.h */,
+				77C74A791BD2A65C006403E5 /* Fraction.h */,
+				77C74A7A1BD2A65C006403E5 /* Fraction.m */,
 				77C74A731BD23124006403E5 /* Complex.m */,
+				77C74A761BD2442E006403E5 /* codeList9-1.m */,
+				77C74A7C1BD3547B006403E5 /* codeList9-2.m */,
 			);
 			name = chapter9;
 			sourceTree = "<group>";
@@ -303,6 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
+				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
+				77C74A7D1BD3547B006403E5 /* codeList9-2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
