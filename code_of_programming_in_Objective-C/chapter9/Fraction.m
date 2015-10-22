@@ -54,4 +54,34 @@
     return result;
 }
 
+-(id) addId: (id) idValue {
+    Fraction *result = [[Fraction alloc] init];
+    
+    result.numerator = numerator * [idValue denominator] +
+    denominator * [idValue numerator];
+    
+    result.denominator = denominator * [idValue denominator];
+    
+    [result reduce];
+    
+    id object = result;
+    
+    return object;
+
+}
+
+-(Fraction *) initWith: (int) n over: (int) d {
+    self = [super init];
+    
+    if (self) {
+        [self setTo: n over: d];
+    }
+    
+    return self;
+}
+
+-(instancetype) init {
+    return [self initWith: 0 over: 0];
+}
+
 @end

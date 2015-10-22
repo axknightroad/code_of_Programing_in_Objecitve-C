@@ -14,5 +14,6 @@
 -(void) print;
 -(void) setReal: (double) a andImaginary: (double) b;
 -(Complex *) add: (Complex *) f;
+-(id) addId: (id) idValue;
 
 @end

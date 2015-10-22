@@ -31,4 +31,15 @@
     imaginary = b;
 }
 
+-(id) addId: (id) idValue {
+    Complex *result = [[Complex alloc] init];
+    
+    result.real = real + [idValue real];
+    result.imaginary = imaginary + [idValue imaginary];
+    
+    id object = result;
+    
+    return object;
+}
+
 @end

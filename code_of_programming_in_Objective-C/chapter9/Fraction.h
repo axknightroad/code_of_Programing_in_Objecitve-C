@@ -17,5 +17,10 @@
 -(double) convertToNum;
 -(Fraction*) add: (Fraction *) f;
 -(void) reduce;
+-(id) addId: (id) idValue;
+
+-(Fraction *) initWith: (int) n over: (int) d;
+
+-(instancetype) init;
 
 @end

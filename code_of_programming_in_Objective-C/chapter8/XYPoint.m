@@ -21,4 +21,8 @@
     return sqrt(pow(x - pt.x, 2) + pow(y - pt.y, 2));
 }
 
+-(void) print {
+    NSLog(@"(%g,%g)", x, y);
+}
+
 @end

@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		77C74A741BD23124006403E5 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A731BD23124006403E5 /* Complex.m */; settings = {ASSET_TAGS = (); }; };
 		77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A7A1BD2A65C006403E5 /* Fraction.m */; settings = {ASSET_TAGS = (); }; };
-		77C74A7D1BD3547B006403E5 /* codeList9-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A7C1BD3547B006403E5 /* codeList9-2.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A801BD6296A006403E5 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77901CBC1BCA8EC900E50CA2 /* Rectangle.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A811BD62970006403E5 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C3FCE1BCAA5390004BCC0 /* Square.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A821BD62979006403E5 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A5F1BCE4B42006403E5 /* GraphicObject.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A831BD6297E006403E5 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C3FD31BCAB5F80004BCC0 /* XYPoint.m */; settings = {ASSET_TAGS = (); }; };
+		77C74A911BD67B0A006403E5 /* codeList10-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A901BD67B0A006403E5 /* codeList10-1.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +61,14 @@
 		77C74A791BD2A65C006403E5 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = chapter9/Fraction.h; sourceTree = "<group>"; };
 		77C74A7A1BD2A65C006403E5 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = chapter9/Fraction.m; sourceTree = "<group>"; };
 		77C74A7C1BD3547B006403E5 /* codeList9-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList9-2.m"; path = "chapter9/codeList9-2.m"; sourceTree = "<group>"; };
+		77C74A7E1BD60352006403E5 /* codeList9-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList9-3.m"; path = "chapter9/codeList9-3.m"; sourceTree = "<group>"; };
+		77C74A841BD62F7C006403E5 /* codeList9-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList9-4.m"; path = "chapter9/codeList9-4.m"; sourceTree = "<group>"; };
+		77C74A861BD63980006403E5 /* test9-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test9-1.m"; sourceTree = "<group>"; };
+		77C74A881BD63AF8006403E5 /* test9-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test9-2.m"; path = "chapter9/test9-2.m"; sourceTree = "<group>"; };
+		77C74A8A1BD63D9A006403E5 /* test9-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test9-3.m"; path = "chapter9/test9-3.m"; sourceTree = "<group>"; };
+		77C74A8C1BD65BE6006403E5 /* test9-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test9-4.m"; path = "chapter9/test9-4.m"; sourceTree = "<group>"; };
+		77C74A8E1BD6635D006403E5 /* test9-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test9-5.m"; path = "chapter9/test9-5.m"; sourceTree = "<group>"; };
+		77C74A901BD67B0A006403E5 /* codeList10-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList10-1.m"; path = "chapter10/codeList10-1.m"; sourceTree = "<group>"; };
 		77E8279B1BC65F3C005C1B2E /* code_of_programming_in_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code_of_programming_in_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8279E1BC65F3C005C1B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E827A91BC66037005C1B2E /* codeList4-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "codeList4-6.m"; sourceTree = "<group>"; };
@@ -153,13 +165,29 @@
 				77C74A731BD23124006403E5 /* Complex.m */,
 				77C74A761BD2442E006403E5 /* codeList9-1.m */,
 				77C74A7C1BD3547B006403E5 /* codeList9-2.m */,
+				77C74A7E1BD60352006403E5 /* codeList9-3.m */,
+				77C74A841BD62F7C006403E5 /* codeList9-4.m */,
+				77C74A8C1BD65BE6006403E5 /* test9-4.m */,
+				77C74A8E1BD6635D006403E5 /* test9-5.m */,
+				77C74A861BD63980006403E5 /* test9-1.m */,
+				77C74A8A1BD63D9A006403E5 /* test9-3.m */,
+				77C74A881BD63AF8006403E5 /* test9-2.m */,
 			);
 			name = chapter9;
+			sourceTree = "<group>";
+		};
+		77C74A921BD67B0F006403E5 /* chapter10 */ = {
+			isa = PBXGroup;
+			children = (
+				77C74A901BD67B0A006403E5 /* codeList10-1.m */,
+			);
+			name = chapter10;
 			sourceTree = "<group>";
 		};
 		77E827921BC65F3C005C1B2E = {
 			isa = PBXGroup;
 			children = (
+				77C74A921BD67B0F006403E5 /* chapter10 */,
 				77C74A751BD23129006403E5 /* chapter9 */,
 				77901CBA1BC9665300E50CA2 /* chapter8 */,
 				77E827E11BC66CAA005C1B2E /* chapter7 */,
@@ -314,7 +342,11 @@
 			files = (
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
-				77C74A7D1BD3547B006403E5 /* codeList9-2.m in Sources */,
+				77C74A831BD6297E006403E5 /* XYPoint.m in Sources */,
+				77C74A911BD67B0A006403E5 /* codeList10-1.m in Sources */,
+				77C74A811BD62970006403E5 /* Square.m in Sources */,
+				77C74A801BD6296A006403E5 /* Rectangle.m in Sources */,
+				77C74A821BD62979006403E5 /* GraphicObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

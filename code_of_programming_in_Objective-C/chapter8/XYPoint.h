@@ -17,4 +17,6 @@
 
 -(double) distance: (XYPoint *) pt;
 
+-(void) print;
+
 @end
