@@ -7,11 +7,13 @@
 //
 
 #import "Calculator.h"
+#import <float.h>
 
 @interface Calculator (Trig)
 
 -(double) sin;
 -(double) cos;
 -(double) tan;
+
 
 @end
