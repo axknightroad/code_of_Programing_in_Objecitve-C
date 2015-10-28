@@ -18,4 +18,12 @@
     return self.width;
 }
 
+-(id) initWithSide:(int)s {
+    return [super initWithWidth: s andHeigth: s];
+}
+
+-(instancetype) init {
+    return [self initWithSide: 0];
+}
+
 @end

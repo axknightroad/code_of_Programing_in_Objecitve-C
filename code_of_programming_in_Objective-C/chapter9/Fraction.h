@@ -15,12 +15,17 @@
 -(void) print;
 -(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
--(Fraction*) add: (Fraction *) f;
+//-(Fraction*) add: (Fraction *) f;
 -(void) reduce;
--(id) addId: (id) idValue;
+//-(id) addId: (id) idValue;
 
 -(Fraction *) initWith: (int) n over: (int) d;
 
 -(instancetype) init;
+
++(Fraction *) allocF;
++(int) count;
+
+-(int) addCounter;
 
 @end

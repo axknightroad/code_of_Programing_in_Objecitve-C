@@ -8,6 +8,8 @@
 
 #import "Fraction.h"
 
+static int gCounter = 0, addCounter = 0;
+
 @implementation Fraction
 
 @synthesize numerator, denominator;
@@ -31,6 +33,9 @@
 -(void) reduce {
     int u = numerator, v = denominator, temp;
     
+    if (u < 0)
+        u = -u;
+    
     while (v) {
         temp = u % v;
         u = v;
@@ -40,7 +45,7 @@
     numerator /= u;
     denominator /= u;
 }
-
+/*
 -(Fraction *) add: (Fraction *) f {
     Fraction *result = [[Fraction alloc] init];
     
@@ -50,6 +55,8 @@
     result.denominator = denominator * f.denominator;
     
     [result reduce];
+    
+    addCounter ++;
     
     return result;
 }
@@ -69,7 +76,7 @@
     return object;
 
 }
-
+*/
 -(Fraction *) initWith: (int) n over: (int) d {
     self = [super init];
     
@@ -82,6 +89,19 @@
 
 -(instancetype) init {
     return [self initWith: 0 over: 0];
+}
+
++(Fraction *) allocF {
+    gCounter++;
+    return [Fraction alloc];
+}
+
++(int) count {
+    return gCounter;
+}
+
+-(int) addCounter {
+    return addCounter;
 }
 
 @end

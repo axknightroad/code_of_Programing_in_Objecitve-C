@@ -13,4 +13,7 @@
 -(void) setSide: (int) s;
 -(int) side;
 
+-(id) initWithSide: (int) s;
+-(instancetype) init;
+
 @end

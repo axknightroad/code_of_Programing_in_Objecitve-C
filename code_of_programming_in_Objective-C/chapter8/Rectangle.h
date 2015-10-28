@@ -23,4 +23,8 @@
 -(Rectangle *) intersect: (Rectangle *) rect;
 -(void) draw;
 
+-(id) initWithWidth: (int) w andHeigth: (int) h;
+
+-(instancetype) init;
+
 @end

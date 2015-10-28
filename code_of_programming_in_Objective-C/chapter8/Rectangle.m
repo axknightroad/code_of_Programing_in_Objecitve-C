@@ -118,4 +118,17 @@
     printf("\n");
 }
 
+-(id) initWithWidth: (int) w andHeigth: (int) h {
+    id value = [super init];
+    
+    [value setWidth: w andHeight: heigtht];
+    
+    return value;
+}
+
+
+-(instancetype) init {
+    return [self initWithWidth: 0 andHeigth: 0];
+}
+
 @end
