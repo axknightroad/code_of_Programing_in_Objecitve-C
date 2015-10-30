@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773837E21BE340EC002D2B84 /* Program13-6.m in Sources */ = {isa = PBXBuildFile; fileRef = 773837E11BE340EC002D2B84 /* Program13-6.m */; };
 		77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5BD1BDCEADF003E8B60 /* Fraction+MathOps.m */; };
 		77B3A5C71BDFD938003E8B60 /* Fraction+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5C61BDFD938003E8B60 /* Fraction+Comparison.m */; };
 		77B3A5CC1BDFEBC7003E8B60 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5CB1BDFEBC7003E8B60 /* Calculator.m */; };
 		77B3A5D11BDFFEC8003E8B60 /* Calculator+Trig.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5D01BDFFEC8003E8B60 /* Calculator+Trig.m */; };
 		77B3A5D41BE0015F003E8B60 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5D31BE0015F003E8B60 /* Square.m */; };
-		77B3A5D71BE0BD08003E8B60 /* Exercises12-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5D61BE0BD08003E8B60 /* Exercises12-2.m */; };
 		77C74A741BD23124006403E5 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A731BD23124006403E5 /* Complex.m */; };
 		77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A7A1BD2A65C006403E5 /* Fraction.m */; };
 		77C74A801BD6296A006403E5 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77901CBC1BCA8EC900E50CA2 /* Rectangle.m */; };
@@ -33,6 +33,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		773837D61BE212ED002D2B84 /* Program13-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-1.m"; path = "chapter13/Program13-1.m"; sourceTree = "<group>"; };
+		773837D91BE22F90002D2B84 /* Program13-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-2.m"; path = "chapter13/Program13-2.m"; sourceTree = "<group>"; };
+		773837DB1BE26628002D2B84 /* Program13-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-3.m"; path = "chapter13/Program13-3.m"; sourceTree = "<group>"; };
+		773837DD1BE266EC002D2B84 /* Program13-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-4.m"; path = "chapter13/Program13-4.m"; sourceTree = "<group>"; };
+		773837DF1BE283C5002D2B84 /* Program13-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-5.m"; path = "chapter13/Program13-5.m"; sourceTree = "<group>"; };
+		773837E11BE340EC002D2B84 /* Program13-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program13-6.m"; path = "chapter13/Program13-6.m"; sourceTree = "<group>"; };
 		77901CB61BC95E6800E50CA2 /* test7-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "test7-6.m"; path = "chapter7/test7-6.m"; sourceTree = "<group>"; };
 		77901CB81BC9664B00E50CA2 /* codeList8-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "codeList8-1.m"; path = "chapter8/codeList8-1.m"; sourceTree = "<group>"; };
 		77901CBB1BCA8EC900E50CA2 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = chapter8/Rectangle.h; sourceTree = "<group>"; };
@@ -148,6 +154,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773837D81BE212F8002D2B84 /* chapter13 */ = {
+			isa = PBXGroup;
+			children = (
+				773837D61BE212ED002D2B84 /* Program13-1.m */,
+				773837D91BE22F90002D2B84 /* Program13-2.m */,
+				773837DB1BE26628002D2B84 /* Program13-3.m */,
+				773837DD1BE266EC002D2B84 /* Program13-4.m */,
+				773837DF1BE283C5002D2B84 /* Program13-5.m */,
+				773837E11BE340EC002D2B84 /* Program13-6.m */,
+			);
+			name = chapter13;
+			sourceTree = "<group>";
+		};
 		77901CBA1BC9665300E50CA2 /* chapter8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +264,7 @@
 		77E827921BC65F3C005C1B2E = {
 			isa = PBXGroup;
 			children = (
+				773837D81BE212F8002D2B84 /* chapter13 */,
 				77B3A5D91BE0BD12003E8B60 /* chapter12 */,
 				77B3A5C21BDF6A88003E8B60 /* chapter11 */,
 				77C74A921BD67B0F006403E5 /* chapter10 */,
@@ -401,12 +421,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B3A5D41BE0015F003E8B60 /* Square.m in Sources */,
+				773837E21BE340EC002D2B84 /* Program13-6.m in Sources */,
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
 				77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */,
 				77B3A5D11BDFFEC8003E8B60 /* Calculator+Trig.m in Sources */,
 				77C74A831BD6297E006403E5 /* XYPoint.m in Sources */,
-				77B3A5D71BE0BD08003E8B60 /* Exercises12-2.m in Sources */,
 				77C74A801BD6296A006403E5 /* Rectangle.m in Sources */,
 				77B3A5C71BDFD938003E8B60 /* Fraction+Comparison.m in Sources */,
 				77C74A821BD62979006403E5 /* GraphicObject.m in Sources */,
