@@ -1,5 +1,5 @@
 //
-//  Program13-6.m
+//  Program13-8.m
 //  code_of_programming_in_Objective-C
 //
 //  Created by Axel Han on 15/10/30.
@@ -10,12 +10,15 @@
 
 int main(int argc, char *argv[]) {
     @autoreleasepool {
-        void (^printMessage)(void) =
-        ^(void) {
-            NSLog(@"Hello World!");
+        int foo = 10;
+        
+        void (^printFoo)(void) = ^(void) {
+            NSLog(@"foo = %i", foo);
         };
         
-        printMessage();
+        printFoo();
+        
+        foo = 15;
     }
     
     return 0;

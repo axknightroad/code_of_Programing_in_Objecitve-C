@@ -10,6 +10,18 @@
 
 static int gCounter = 0, addCounter = 0;
 
+static int gcd(int u, int v) {
+    int temp;
+    
+    while (v) {
+        temp = u % v;
+        u = v;
+        v = temp;
+    }
+    
+    return u;
+}
+
 @implementation Fraction
 
 @synthesize numerator, denominator;
@@ -31,8 +43,9 @@ static int gCounter = 0, addCounter = 0;
 }
 
 -(void) reduce {
-    int u = numerator, v = denominator, temp;
-    
+    int u = numerator, v = denominator;
+    u = gcd(u, v);
+    /*
     if (u < 0)
         u = -u;
     
@@ -41,7 +54,7 @@ static int gCounter = 0, addCounter = 0;
         u = v;
         v = temp;
     }
-    
+    */
     numerator /= u;
     denominator /= u;
 }
