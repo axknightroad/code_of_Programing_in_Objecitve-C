@@ -22,6 +22,5 @@
 
 -(instancetype) init;
 
-- (void)test:(int) t;
 
 @end
