@@ -18,7 +18,7 @@
 		77C74A801BD6296A006403E5 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77901CBC1BCA8EC900E50CA2 /* Rectangle.m */; };
 		77C74A821BD62979006403E5 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C74A5F1BCE4B42006403E5 /* GraphicObject.m */; };
 		77C74A831BD6297E006403E5 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C3FD31BCAB5F80004BCC0 /* XYPoint.m */; };
-		77DACF871BEB73A700468153 /* Program15-5.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DACF861BEB73A700468153 /* Program15-5.m */; };
+		77DACFB01BECA19700468153 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DACFAF1BECA19700468153 /* AddressCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +126,12 @@
 		77DACF821BEB008200468153 /* Program15-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-3.m"; path = "chapter15/Program15-3.m"; sourceTree = "<group>"; };
 		77DACF841BEB45DE00468153 /* Program15-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-4.m"; path = "chapter15/Program15-4.m"; sourceTree = "<group>"; };
 		77DACF861BEB73A700468153 /* Program15-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-5.m"; path = "chapter15/Program15-5.m"; sourceTree = "<group>"; };
+		77DACF881BEB9D8600468153 /* Program15-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-6.m"; path = "chapter15/Program15-6.m"; sourceTree = "<group>"; };
+		77DACFA81BEC8DC700468153 /* Program15-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-7.m"; path = "chapter15/Program15-7.m"; sourceTree = "<group>"; };
+		77DACFAA1BEC927900468153 /* Program15-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-8.m"; path = "chapter15/Program15-8.m"; sourceTree = "<group>"; };
+		77DACFAC1BEC95B300468153 /* Program15-9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-9.m"; path = "chapter15/Program15-9.m"; sourceTree = "<group>"; };
+		77DACFAE1BECA19700468153 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressCard.h; path = chapter15/AddressCard.h; sourceTree = "<group>"; };
+		77DACFAF1BECA19700468153 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressCard.m; path = chapter15/AddressCard.m; sourceTree = "<group>"; };
 		77E8279B1BC65F3C005C1B2E /* code_of_programming_in_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code_of_programming_in_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8279E1BC65F3C005C1B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E827A91BC66037005C1B2E /* codeList4-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "codeList4-6.m"; sourceTree = "<group>"; };
@@ -312,11 +318,17 @@
 		77DACF7F1BEA261100468153 /* chapter15 */ = {
 			isa = PBXGroup;
 			children = (
+				77DACFAE1BECA19700468153 /* AddressCard.h */,
+				77DACFAF1BECA19700468153 /* AddressCard.m */,
 				77DACF7D1BEA260800468153 /* Program15-1.m */,
 				77DACF801BEA718900468153 /* Program15-2.m */,
 				77DACF821BEB008200468153 /* Program15-3.m */,
 				77DACF841BEB45DE00468153 /* Program15-4.m */,
 				77DACF861BEB73A700468153 /* Program15-5.m */,
+				77DACF881BEB9D8600468153 /* Program15-6.m */,
+				77DACFA81BEC8DC700468153 /* Program15-7.m */,
+				77DACFAA1BEC927900468153 /* Program15-8.m */,
+				77DACFAC1BEC95B300468153 /* Program15-9.m */,
 			);
 			name = chapter15;
 			sourceTree = "<group>";
@@ -481,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DACFB01BECA19700468153 /* AddressCard.m in Sources */,
 				77B3A5D41BE0015F003E8B60 /* Square.m in Sources */,
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
@@ -489,7 +502,6 @@
 				77C74A831BD6297E006403E5 /* XYPoint.m in Sources */,
 				77C74A801BD6296A006403E5 /* Rectangle.m in Sources */,
 				77B3A5C71BDFD938003E8B60 /* Fraction+Comparison.m in Sources */,
-				77DACF871BEB73A700468153 /* Program15-5.m in Sources */,
 				77C74A821BD62979006403E5 /* GraphicObject.m in Sources */,
 				77B3A5CC1BDFEBC7003E8B60 /* Calculator.m in Sources */,
 				779075601BE919880014AFD7 /* Data.m in Sources */,
