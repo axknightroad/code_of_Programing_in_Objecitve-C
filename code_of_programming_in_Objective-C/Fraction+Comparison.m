@@ -76,5 +76,16 @@
         return NO;
 }
 
+- (NSComparisonResult)comparison:(Fraction *)other {
+    Fraction *result = [self sub:other];
+    if (result.numerator < 0) {
+        return NSOrderedAscending;
+    } else if (result.numerator == 0) {
+        return NSOrderedSame;
+    } else {
+        return NSOrderedDescending;
+    }
+}
+
 
 @end

@@ -19,5 +19,6 @@
 -(BOOL) isGreaterThanOrEqualTo: (Fraction *) f;
 -(BOOL) isGreaterThan: (Fraction *) f;
 -(BOOL) isNotEqualTo: (Fraction *) f;
+- (NSComparisonResult)comparison:(Fraction *)other;
 
 @end

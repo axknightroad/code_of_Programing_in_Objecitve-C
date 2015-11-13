@@ -44,11 +44,13 @@ static int gcd(int u, int v) {
 
 -(void) reduce {
     int u = numerator, v = denominator;
-    u = gcd(u, v);
-    /*
+    
     if (u < 0)
         u = -u;
     
+    u = gcd(u, v);
+    
+    /*
     while (v) {
         temp = u % v;
         u = v;
@@ -116,5 +118,13 @@ static int gcd(int u, int v) {
 -(int) addCounter {
     return addCounter;
 }
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"%d/%d", numerator, denominator];
+}
+
+
+
 
 @end
