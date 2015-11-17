@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7759C5EC1BF7A107008AADEC /* Program16-6.m in Sources */ = {isa = PBXBuildFile; fileRef = 7759C5EB1BF7A107008AADEC /* Program16-6.m */; };
+		77666BE91BFB025B00D2B9F1 /* Exercoses16-8.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666BE81BFB025B00D2B9F1 /* Exercoses16-8.m */; };
 		777AF1B51BEDDCE100D3D7C9 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 777AF1B41BEDDCE100D3D7C9 /* AddressBook.m */; };
 		779075601BE919880014AFD7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 7790755F1BE919880014AFD7 /* Data.m */; };
 		77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5BD1BDCEADF003E8B60 /* Fraction+MathOps.m */; };
@@ -60,6 +60,17 @@
 		7755F41A1BE8533C001844E9 /* Exercises13-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises13-1.m"; path = "chapter13/Exercises13-1.m"; sourceTree = "<group>"; };
 		7759C5E91BF78066008AADEC /* Program16-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program16-5.m"; path = "chapter16/Program16-5.m"; sourceTree = "<group>"; };
 		7759C5EB1BF7A107008AADEC /* Program16-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program16-6.m"; path = "chapter16/Program16-6.m"; sourceTree = "<group>"; };
+		77666BD41BF9CFB000D2B9F1 /* Program16-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program16-7.m"; path = "chapter16/Program16-7.m"; sourceTree = "<group>"; };
+		77666BD61BF9F6BD00D2B9F1 /* Program16-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program16-8.m"; path = "chapter16/Program16-8.m"; sourceTree = "<group>"; };
+		77666BD81BFA4E3600D2B9F1 /* Program16-9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program16-9.m"; path = "chapter16/Program16-9.m"; sourceTree = "<group>"; };
+		77666BDA1BFA512E00D2B9F1 /* Exericises16-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-1.m"; path = "chapter16/Exericises16-1.m"; sourceTree = "<group>"; };
+		77666BDC1BFA617000D2B9F1 /* Exericises16-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-2.m"; path = "chapter16/Exericises16-2.m"; sourceTree = "<group>"; };
+		77666BDE1BFAF44900D2B9F1 /* Exericises16-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-3.m"; path = "chapter16/Exericises16-3.m"; sourceTree = "<group>"; };
+		77666BE01BFAF9B300D2B9F1 /* Exericises16-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-4.m"; path = "chapter16/Exericises16-4.m"; sourceTree = "<group>"; };
+		77666BE21BFAFA6A00D2B9F1 /* Exerocoses16-5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exerocoses16-5.m"; path = "chapter16/Exerocoses16-5.m"; sourceTree = "<group>"; };
+		77666BE41BFAFE5B00D2B9F1 /* Exercises16-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises16-6.m"; path = "chapter16/Exercises16-6.m"; sourceTree = "<group>"; };
+		77666BE61BFAFFB600D2B9F1 /* Exericises16-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-7.m"; path = "chapter16/Exericises16-7.m"; sourceTree = "<group>"; };
+		77666BE81BFB025B00D2B9F1 /* Exercoses16-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercoses16-8.m"; path = "chapter16/Exercoses16-8.m"; sourceTree = "<group>"; };
 		776DF2EC1BE8F4EC0083387E /* Exercises13-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises13-3.m"; path = "chapter13/Exercises13-3.m"; sourceTree = "<group>"; };
 		777AF1AF1BEDD03A00D3D7C9 /* Program15-10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-10.m"; path = "chapter15/Program15-10.m"; sourceTree = "<group>"; };
 		777AF1B11BEDDAFA00D3D7C9 /* Program15-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-11.m"; path = "chapter15/Program15-11.m"; sourceTree = "<group>"; };
@@ -405,6 +416,17 @@
 				77058C821BF658F100DD1F27 /* Program16-4.m */,
 				7759C5E91BF78066008AADEC /* Program16-5.m */,
 				7759C5EB1BF7A107008AADEC /* Program16-6.m */,
+				77666BD41BF9CFB000D2B9F1 /* Program16-7.m */,
+				77666BD61BF9F6BD00D2B9F1 /* Program16-8.m */,
+				77666BD81BFA4E3600D2B9F1 /* Program16-9.m */,
+				77666BDA1BFA512E00D2B9F1 /* Exericises16-1.m */,
+				77666BDC1BFA617000D2B9F1 /* Exericises16-2.m */,
+				77666BDE1BFAF44900D2B9F1 /* Exericises16-3.m */,
+				77666BE01BFAF9B300D2B9F1 /* Exericises16-4.m */,
+				77666BE21BFAFA6A00D2B9F1 /* Exerocoses16-5.m */,
+				77666BE41BFAFE5B00D2B9F1 /* Exercises16-6.m */,
+				77666BE61BFAFFB600D2B9F1 /* Exericises16-7.m */,
+				77666BE81BFB025B00D2B9F1 /* Exercoses16-8.m */,
 			);
 			name = chapter16;
 			sourceTree = "<group>";
@@ -572,9 +594,9 @@
 			files = (
 				77E2B6851BF47F380056E960 /* Song.m in Sources */,
 				77DACFB01BECA19700468153 /* AddressCard.m in Sources */,
-				7759C5EC1BF7A107008AADEC /* Program16-6.m in Sources */,
 				77B3A5D41BE0015F003E8B60 /* Square.m in Sources */,
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
+				77666BE91BFB025B00D2B9F1 /* Exercoses16-8.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
 				77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */,
 				77B3A5D11BDFFEC8003E8B60 /* Calculator+Trig.m in Sources */,
