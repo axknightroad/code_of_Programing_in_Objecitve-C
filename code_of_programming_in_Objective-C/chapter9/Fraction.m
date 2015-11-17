@@ -124,7 +124,11 @@ static int gcd(int u, int v) {
     return [NSString stringWithFormat:@"%d/%d", numerator, denominator];
 }
 
-
+- (id)copyWithZone:(NSZone *)zone {
+    id newFract = [[[self class] allocWithZone:zone] init];
+    [newFract setTo:numerator over:denominator];
+    return newFract;
+}
 
 
 @end

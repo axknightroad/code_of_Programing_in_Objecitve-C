@@ -99,6 +99,15 @@
     }
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    id newAddrBook = [[[self class] allocWithZone:zone] initWithName:bookName];
+    for (AddressCard *addrCard in book) {
+        AddressCard *newAddrCard = [addrCard copy];
+        [newAddrBook addCard:newAddrCard];
+    }
+    return newAddrBook;
+}
+
 
 
 @end

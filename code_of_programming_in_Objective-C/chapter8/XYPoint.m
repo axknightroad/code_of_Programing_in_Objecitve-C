@@ -25,4 +25,10 @@
     NSLog(@"(%g,%g)", x, y);
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    id newPoint = [[[self class] allocWithZone:zone] init];
+    [newPoint setX:x andY:y];
+    return newPoint;
+}
+
 @end

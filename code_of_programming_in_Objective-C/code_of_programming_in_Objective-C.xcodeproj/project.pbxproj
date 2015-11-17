@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77666BE91BFB025B00D2B9F1 /* Exercoses16-8.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666BE81BFB025B00D2B9F1 /* Exercoses16-8.m */; };
-		77666BEB1BFB5DF600D2B9F1 /* Pramgrom18-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666BEA1BFB5DF600D2B9F1 /* Pramgrom18-1.m */; };
+		77666BFB1BFBAA8700D2B9F1 /* Exercises18-3.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666BFA1BFBAA8700D2B9F1 /* Exercises18-3.m */; };
 		777AF1B51BEDDCE100D3D7C9 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 777AF1B41BEDDCE100D3D7C9 /* AddressBook.m */; };
 		779075601BE919880014AFD7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 7790755F1BE919880014AFD7 /* Data.m */; };
 		77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5BD1BDCEADF003E8B60 /* Fraction+MathOps.m */; };
@@ -73,6 +72,12 @@
 		77666BE61BFAFFB600D2B9F1 /* Exericises16-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises16-7.m"; path = "chapter16/Exericises16-7.m"; sourceTree = "<group>"; };
 		77666BE81BFB025B00D2B9F1 /* Exercoses16-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercoses16-8.m"; path = "chapter16/Exercoses16-8.m"; sourceTree = "<group>"; };
 		77666BEA1BFB5DF600D2B9F1 /* Pramgrom18-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pramgrom18-1.m"; path = "chapter18/Pramgrom18-1.m"; sourceTree = "<group>"; };
+		77666BED1BFB6C4B00D2B9F1 /* Program18-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program18-2.m"; path = "chapter18/Program18-2.m"; sourceTree = "<group>"; };
+		77666BEF1BFB729A00D2B9F1 /* Program18-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program18-3.m"; path = "chapter18/Program18-3.m"; sourceTree = "<group>"; };
+		77666BF11BFB91E000D2B9F1 /* Program18-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program18-4.m"; path = "chapter18/Program18-4.m"; sourceTree = "<group>"; };
+		77666BF61BFBA53700D2B9F1 /* Exercises18-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises18-1.m"; path = "chapter18/Exercises18-1.m"; sourceTree = "<group>"; };
+		77666BF81BFBA88400D2B9F1 /* Exercises18-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises18-2.m"; path = "chapter18/Exercises18-2.m"; sourceTree = "<group>"; };
+		77666BFA1BFBAA8700D2B9F1 /* Exercises18-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises18-3.m"; path = "chapter18/Exercises18-3.m"; sourceTree = "<group>"; };
 		776DF2EC1BE8F4EC0083387E /* Exercises13-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises13-3.m"; path = "chapter13/Exercises13-3.m"; sourceTree = "<group>"; };
 		777AF1AF1BEDD03A00D3D7C9 /* Program15-10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-10.m"; path = "chapter15/Program15-10.m"; sourceTree = "<group>"; };
 		777AF1B11BEDDAFA00D3D7C9 /* Program15-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-11.m"; path = "chapter15/Program15-11.m"; sourceTree = "<group>"; };
@@ -271,6 +276,20 @@
 			name = chapter13;
 			sourceTree = "<group>";
 		};
+		77666BEC1BFB639C00D2B9F1 /* chapter18 */ = {
+			isa = PBXGroup;
+			children = (
+				77666BEA1BFB5DF600D2B9F1 /* Pramgrom18-1.m */,
+				77666BED1BFB6C4B00D2B9F1 /* Program18-2.m */,
+				77666BEF1BFB729A00D2B9F1 /* Program18-3.m */,
+				77666BF11BFB91E000D2B9F1 /* Program18-4.m */,
+				77666BF61BFBA53700D2B9F1 /* Exercises18-1.m */,
+				77666BF81BFBA88400D2B9F1 /* Exercises18-2.m */,
+				77666BFA1BFBAA8700D2B9F1 /* Exercises18-3.m */,
+			);
+			name = chapter18;
+			sourceTree = "<group>";
+		};
 		77901CBA1BC9665300E50CA2 /* chapter8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,7 +455,7 @@
 		77E827921BC65F3C005C1B2E = {
 			isa = PBXGroup;
 			children = (
-				77666BEA1BFB5DF600D2B9F1 /* Pramgrom18-1.m */,
+				77666BEC1BFB639C00D2B9F1 /* chapter18 */,
 				77E2B6951BF504A30056E960 /* chapter16 */,
 				77DACF7F1BEA261100468153 /* chapter15 */,
 				773837D81BE212F8002D2B84 /* chapter13 */,
@@ -596,10 +615,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E2B6851BF47F380056E960 /* Song.m in Sources */,
+				77666BFB1BFBAA8700D2B9F1 /* Exercises18-3.m in Sources */,
 				77DACFB01BECA19700468153 /* AddressCard.m in Sources */,
 				77B3A5D41BE0015F003E8B60 /* Square.m in Sources */,
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
-				77666BE91BFB025B00D2B9F1 /* Exercoses16-8.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
 				77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */,
 				77B3A5D11BDFFEC8003E8B60 /* Calculator+Trig.m in Sources */,
@@ -610,7 +629,6 @@
 				77C74A821BD62979006403E5 /* GraphicObject.m in Sources */,
 				777AF1B51BEDDCE100D3D7C9 /* AddressBook.m in Sources */,
 				77B3A5CC1BDFEBC7003E8B60 /* Calculator.m in Sources */,
-				77666BEB1BFB5DF600D2B9F1 /* Pramgrom18-1.m in Sources */,
 				779075601BE919880014AFD7 /* Data.m in Sources */,
 				77E2B68B1BF481880056E960 /* MusicCollection.m in Sources */,
 			);

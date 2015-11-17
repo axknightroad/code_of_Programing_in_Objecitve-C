@@ -121,7 +121,7 @@
 -(id) initWithWidth: (int) w andHeigth: (int) h {
     id value = [super init];
     
-    [value setWidth: w andHeight: heigtht];
+    [value setWidth: w andHeight: h];
     
     return value;
 }
@@ -129,6 +129,13 @@
 
 -(instancetype) init {
     return [self initWithWidth: 0 andHeigth: 0];
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+    id newRect = [[[self class] allocWithZone:zone] init];
+    [newRect setWidth:width andHeight:heigtht];
+    [newRect setOrigin:[self.origin copy]];
+    return newRect;
 }
 
 @end

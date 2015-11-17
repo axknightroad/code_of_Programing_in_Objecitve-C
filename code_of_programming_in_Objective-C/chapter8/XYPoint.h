@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <math.h>
 
-@interface XYPoint : NSObject
+@interface XYPoint : NSObject <NSCopying>
 
 @property double x, y;
 

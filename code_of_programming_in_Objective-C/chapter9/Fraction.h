@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Fraction : NSObject
+@interface Fraction : NSObject <NSCopying>
 
 @property int numerator, denominator;
 

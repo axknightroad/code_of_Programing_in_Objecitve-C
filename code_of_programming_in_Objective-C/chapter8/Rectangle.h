@@ -9,7 +9,7 @@
 #import "GraphicObject.h"
 #import "XYPoint.h"
 
-@interface Rectangle : GraphicObject
+@interface Rectangle : GraphicObject <NSCopying>
 
 @property double width, heigtht;
 -(double) area;

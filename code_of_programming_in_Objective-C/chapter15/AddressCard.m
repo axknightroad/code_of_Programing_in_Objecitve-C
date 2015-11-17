@@ -117,5 +117,18 @@
     return NO;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    id newCard = [[[self class] allocWithZone:zone] init];
+    [newCard setFirstName:firstName lastName:lastName address:address email:email phoneNumber:phoneNumber];
+    return newCard;
+}
+
+- (void)assignName:(NSString *)theFristName andLastName:(NSString *)theLastName andAddress:(NSString *)theAddress andEmail:(NSString *)theEmail andPhoneNumber:(NSString *)thePhoneNumber {
+    firstName = theFristName;
+    lastName = theLastName;
+    address = theAddress;
+    email = theEmail;
+    phoneNumber = thePhoneNumber;
+}
 
 @end
