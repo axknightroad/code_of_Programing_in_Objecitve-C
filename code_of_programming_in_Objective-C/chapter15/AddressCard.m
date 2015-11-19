@@ -13,7 +13,7 @@
 //    NSString *email;
 //}
 
-@synthesize firstName, lastName, address, email, phoneNumber;
+@synthesize name, email;
 
 //- (void)setName:(NSString *)theName {
 //    if (name != theName)
@@ -36,10 +36,8 @@
 - (void)print {
     NSLog(@"====================================");
     NSLog(@"|                                  |");
-    NSLog(@"|  %-10s %-20s |", [firstName UTF8String], [lastName UTF8String]);
+    NSLog(@"|  %-31s |", [name UTF8String]);
     NSLog(@"|  %-31s |", [email UTF8String]);
-    NSLog(@"|  %-31s |", [address UTF8String]);
-    NSLog(@"|  %-31s |", [phoneNumber UTF8String]);
     NSLog(@"|                                  |");
     NSLog(@"|                                  |");
     NSLog(@"|       O                  O       |");
@@ -47,69 +45,47 @@
 }
 
 - (void)list {
-    NSLog(@"%s %s", [firstName UTF8String], [lastName UTF8String]);
-    NSLog(@"%-32s", [email UTF8String]);
-    NSLog(@"%-50s", [address UTF8String]);
-    NSLog(@"%-20s", [phoneNumber UTF8String]);
-    NSLog(@" ");
+    NSLog(@"%-20s %-32s", [name UTF8String], [email UTF8String]);
     
 }
 
-//- (void)setName:(NSString *)theName andEmail:(NSString *)theEmail {
-//    self.name = theName;
-//    self.email = theEmail;
-//}
-
-- (void)setFirstName:(NSString *)theFirstName
-            lastName:(NSString *)thelastName
-             address:(NSString *)theAddress
-               email:(NSString *)theEmail
-         phoneNumber:(NSString *)thePhoneNumber{
-    self.firstName = theFirstName;
-    self.lastName = thelastName;
-    self.address = theAddress;
+- (void)setName:(NSString *)theName andEmail:(NSString *)theEmail {
+    self.name = theName;
     self.email = theEmail;
-    self.phoneNumber = thePhoneNumber;
 }
 
+//- (void)setFirstName:(NSString *)theFirstName
+//            lastName:(NSString *)thelastName
+//             address:(NSString *)theAddress
+//               email:(NSString *)theEmail
+//         phoneNumber:(NSString *)thePhoneNumber{
+//    self.firstName = theFirstName;
+//    self.lastName = thelastName;
+//    self.address = theAddress;
+//    self.email = theEmail;
+//    self.phoneNumber = thePhoneNumber;
+//}
+
 - (BOOL)isEqual:(AddressCard *)theCard {
-    if ([firstName isEqualToString:theCard.firstName] &&
-        [lastName isEqualToString:theCard.lastName] &&
-        [address isEqualToString:theCard.address] &&
-        [email isEqualToString:theCard.email] &&
-        [phoneNumber isEqualToString:theCard.phoneNumber])
+    if ([name isEqualToString:theCard.name] &&
+        [email isEqualToString:theCard.email])
         return YES;
     else
         return NO;
 }
 
-- (NSComparisonResult) compareNames:(id)element{
-    return [lastName compare:[element lastName]];
+- (NSComparisonResult) compareNames:(id)element {
+    return [name compare:[element name]];
 }
 
--(BOOL)containsName:(NSString *)name {
+- (BOOL)containsName:(NSString *)theName {
     NSRange search;
-    search = [firstName rangeOfString:name];
+    search = [name rangeOfString:theName];
     if (search.location != NSNotFound) {
         return YES;
     }
     
-    search = [lastName rangeOfString:name];
-    if (search.location != NSNotFound) {
-        return YES;
-    }
-    
-    search = [email rangeOfString:name];
-    if (search.location != NSNotFound) {
-        return YES;
-    }
-    
-    search = [address rangeOfString:name];
-    if (search.location != NSNotFound) {
-        return YES;
-    }
-    
-    search = [phoneNumber rangeOfString:name];
+    search = [email rangeOfString:theName];
     if (search.location != NSNotFound) {
         return YES;
     }
@@ -119,16 +95,25 @@
 
 - (id)copyWithZone:(NSZone *)zone {
     id newCard = [[[self class] allocWithZone:zone] init];
-    [newCard setFirstName:firstName lastName:lastName address:address email:email phoneNumber:phoneNumber];
+    [newCard assignName:name andEmail:email];
     return newCard;
 }
 
-- (void)assignName:(NSString *)theFristName andLastName:(NSString *)theLastName andAddress:(NSString *)theAddress andEmail:(NSString *)theEmail andPhoneNumber:(NSString *)thePhoneNumber {
-    firstName = theFristName;
-    lastName = theLastName;
-    address = theAddress;
+- (void)assignName:(NSString *)theName andEmail:(NSString *)theEmail {
+    name = theName;
     email = theEmail;
-    phoneNumber = thePhoneNumber;
+}
+
+- (void)encodeWithCoder:(NSCoder *)encoder {
+    [encoder encodeObject:name forKey:@"AddressCardName"];
+    [encoder encodeObject:email forKey:@"AddressCardEmail"];
+}
+
+- (id)initWithCoder:(NSCoder *)decoder {
+    name = [decoder decodeObjectForKey:@"AddressCardName"];
+    email = [decoder decodeObjectForKey:@"AddressCardEmail"];
+    
+    return self;
 }
 
 @end

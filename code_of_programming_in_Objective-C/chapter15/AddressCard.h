@@ -9,10 +9,9 @@
 #import <Foundation/Foundation.h>
 
 
-@interface AddressCard : NSObject <NSCopying>
+@interface AddressCard : NSObject <NSCopying, NSCoding>
 
-@property(copy, nonatomic) NSString *firstName, *lastName, *address, *email,
-*phoneNumber;
+@property(copy, nonatomic) NSString *name, *email;
 
 //- (void)setName:(NSString *)theName;
 //- (void)setEmail:(NSString *)theEmail;
@@ -21,15 +20,12 @@
 
 - (void)print;
 - (void)list;
-//- (void)setName:(NSString *)theName andEmail:(NSString *)theEmail;
-- (void) setFirstName:(NSString *)theFirstName
-             lastName:(NSString *)thelastName
-              address:(NSString *)theAddress
-                email:(NSString *)theEmail
-          phoneNumber:(NSString *)thePhoneNumber;
+- (void)setName:(NSString *)theName andEmail:(NSString *)theEmail;
 
--(BOOL) containsName:(NSString*)name;
+- (BOOL)containsName:(NSString*)theName;
 
-- (NSComparisonResult) compareNames:(id)element;
+- (NSComparisonResult)compareNames:(id)element;
+
+- (void)assignName:(NSString *)theName andEmail:(NSString *)theEmail;
 
 @end
