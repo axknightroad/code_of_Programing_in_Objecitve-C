@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77666C0D1BFE0E4700D2B9F1 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666C0C1BFE0E4700D2B9F1 /* Foo.m */; };
+		77666C201BFE335600D2B9F1 /* Exericises19-4.m in Sources */ = {isa = PBXBuildFile; fileRef = 77666C1F1BFE335600D2B9F1 /* Exericises19-4.m */; };
 		777AF1B51BEDDCE100D3D7C9 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 777AF1B41BEDDCE100D3D7C9 /* AddressBook.m */; };
 		779075601BE919880014AFD7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 7790755F1BE919880014AFD7 /* Data.m */; };
 		77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B3A5BD1BDCEADF003E8B60 /* Fraction+MathOps.m */; };
@@ -83,6 +85,16 @@
 		77666C031BFCC9D000D2B9F1 /* Program19-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-4.m"; path = "chapter19/Program19-4.m"; sourceTree = "<group>"; };
 		77666C071BFE0B9B00D2B9F1 /* Program19-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-6.m"; path = "chapter19/Program19-6.m"; sourceTree = "<group>"; };
 		77666C091BFE0C3E00D2B9F1 /* Program19-7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-7.m"; path = "chapter19/Program19-7.m"; sourceTree = "<group>"; };
+		77666C0B1BFE0E4700D2B9F1 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foo.h; path = chapter19/Foo.h; sourceTree = "<group>"; };
+		77666C0C1BFE0E4700D2B9F1 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foo.m; path = chapter19/Foo.m; sourceTree = "<group>"; };
+		77666C0E1BFE0FDF00D2B9F1 /* Program19-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-8.m"; path = "chapter19/Program19-8.m"; sourceTree = "<group>"; };
+		77666C101BFE116300D2B9F1 /* Program19-9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-9.m"; path = "chapter19/Program19-9.m"; sourceTree = "<group>"; };
+		77666C131BFE283300D2B9F1 /* Program19-10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-10.m"; path = "chapter19/Program19-10.m"; sourceTree = "<group>"; };
+		77666C171BFE2AC600D2B9F1 /* Program19-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program19-11.m"; path = "chapter19/Program19-11.m"; sourceTree = "<group>"; };
+		77666C191BFE2DC600D2B9F1 /* Exercises19-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises19-1.m"; path = "chapter19/Exercises19-1.m"; sourceTree = "<group>"; };
+		77666C1B1BFE2FC500D2B9F1 /* Exericises19-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises19-2.m"; path = "chapter19/Exericises19-2.m"; sourceTree = "<group>"; };
+		77666C1D1BFE325000D2B9F1 /* Exericises19-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises19-3.m"; path = "chapter19/Exericises19-3.m"; sourceTree = "<group>"; };
+		77666C1F1BFE335600D2B9F1 /* Exericises19-4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exericises19-4.m"; path = "chapter19/Exericises19-4.m"; sourceTree = "<group>"; };
 		776DF2EC1BE8F4EC0083387E /* Exercises13-3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Exercises13-3.m"; path = "chapter13/Exercises13-3.m"; sourceTree = "<group>"; };
 		777AF1AF1BEDD03A00D3D7C9 /* Program15-10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-10.m"; path = "chapter15/Program15-10.m"; sourceTree = "<group>"; };
 		777AF1B11BEDDAFA00D3D7C9 /* Program15-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Program15-11.m"; path = "chapter15/Program15-11.m"; sourceTree = "<group>"; };
@@ -298,12 +310,22 @@
 		77666BFE1BFBAE0700D2B9F1 /* chapter19 */ = {
 			isa = PBXGroup;
 			children = (
+				77666C0B1BFE0E4700D2B9F1 /* Foo.h */,
+				77666C0C1BFE0E4700D2B9F1 /* Foo.m */,
 				77666BFC1BFBAE0000D2B9F1 /* Program19-1.m */,
 				77666BFF1BFCC65B00D2B9F1 /* Program19-2.m */,
 				77666C011BFCC7CE00D2B9F1 /* Program19-3.m */,
 				77666C031BFCC9D000D2B9F1 /* Program19-4.m */,
 				77666C071BFE0B9B00D2B9F1 /* Program19-6.m */,
 				77666C091BFE0C3E00D2B9F1 /* Program19-7.m */,
+				77666C0E1BFE0FDF00D2B9F1 /* Program19-8.m */,
+				77666C101BFE116300D2B9F1 /* Program19-9.m */,
+				77666C131BFE283300D2B9F1 /* Program19-10.m */,
+				77666C171BFE2AC600D2B9F1 /* Program19-11.m */,
+				77666C191BFE2DC600D2B9F1 /* Exercises19-1.m */,
+				77666C1B1BFE2FC500D2B9F1 /* Exericises19-2.m */,
+				77666C1D1BFE325000D2B9F1 /* Exericises19-3.m */,
+				77666C1F1BFE335600D2B9F1 /* Exericises19-4.m */,
 			);
 			name = chapter19;
 			sourceTree = "<group>";
@@ -635,8 +657,10 @@
 			files = (
 				77E2B6851BF47F380056E960 /* Song.m in Sources */,
 				77DACFB01BECA19700468153 /* AddressCard.m in Sources */,
+				77666C0D1BFE0E4700D2B9F1 /* Foo.m in Sources */,
 				77B3A5D41BE0015F003E8B60 /* Square.m in Sources */,
 				77C74A741BD23124006403E5 /* Complex.m in Sources */,
+				77666C201BFE335600D2B9F1 /* Exericises19-4.m in Sources */,
 				77C74A7B1BD2A65C006403E5 /* Fraction.m in Sources */,
 				77B3A5BE1BDCEADF003E8B60 /* Fraction+MathOps.m in Sources */,
 				77B3A5D11BDFFEC8003E8B60 /* Calculator+Trig.m in Sources */,
